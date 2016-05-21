@@ -1,0 +1,24 @@
+﻿@model SkyBankP2p.Models.CurrentStateViewModel
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<table class="table table-bordered">
+  @foreach (var item in Model.Items)
+  {
+      <tr>
+        <td>@item.BudgetCategory</td>
+        <td>@item.FactAmount</td>
+        <td>@item.PlanAmount</td>
+        <td>@item.Difference</td>
+
+
+      </tr>
+
+  }
+
+
+</table>
+

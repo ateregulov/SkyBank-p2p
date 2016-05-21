@@ -175,6 +175,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\TransactionsController.cs" />
+    <Compile Include="Controllers\WalletsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -261,11 +262,16 @@
     <Content Include="Views\BudgetLimits\Details.cshtml" />
     <Content Include="Views\BudgetLimits\Edit.cshtml" />
     <Content Include="Views\BudgetLimits\Index.cshtml" />
+    <Content Include="Views\CurrentState\Index.cshtml" />
+    <Content Include="Views\Wallets\Create.cshtml" />
+    <Content Include="Views\Wallets\Delete.cshtml" />
+    <Content Include="Views\Wallets\Details.cshtml" />
+    <Content Include="Views\Wallets\Edit.cshtml" />
+    <Content Include="Views\Wallets\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Views\Balance\" />
-    <Folder Include="Views\CurrentState\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
