@@ -170,6 +170,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\BalanceController.cs" />
     <Compile Include="Controllers\BudgetCategoriesController.cs" />
+    <Compile Include="Controllers\BudgetLimitsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\TransactionsController.cs" />
@@ -179,6 +180,7 @@
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\BudgetCategory.cs" />
     <Compile Include="Models\BudgetLimit.cs" />
+    <Compile Include="Models\CurrentStateViewModel.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\OperationType.cs" />
@@ -252,6 +254,11 @@
     <Content Include="Views\Transactions\Details.cshtml" />
     <Content Include="Views\Transactions\Edit.cshtml" />
     <Content Include="Views\Transactions\Index.cshtml" />
+    <Content Include="Views\BudgetLimits\Create.cshtml" />
+    <Content Include="Views\BudgetLimits\Delete.cshtml" />
+    <Content Include="Views\BudgetLimits\Details.cshtml" />
+    <Content Include="Views\BudgetLimits\Edit.cshtml" />
+    <Content Include="Views\BudgetLimits\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
