@@ -171,6 +171,7 @@
     <Compile Include="Controllers\BalanceController.cs" />
     <Compile Include="Controllers\BudgetCategoriesController.cs" />
     <Compile Include="Controllers\BudgetLimitsController.cs" />
+    <Compile Include="Controllers\CurrentStateController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\TransactionsController.cs" />
