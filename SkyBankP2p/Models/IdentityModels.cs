@@ -37,5 +37,7 @@ namespace SkyBankP2p.Models
         public System.Data.Entity.DbSet<SkyBankP2p.Models.OperationType> OperationTypes { get; set; }
 
         public System.Data.Entity.DbSet<SkyBankP2p.Models.Wallet> Wallets { get; set; }
+
+        public System.Data.Entity.DbSet<SkyBankP2p.Models.BudgetLimit> BudgetLimits { get; set; }
     }
 }
