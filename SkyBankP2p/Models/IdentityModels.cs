@@ -29,5 +29,13 @@ namespace SkyBankP2p.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<SkyBankP2p.Models.BudgetCategory> BudgetCategories { get; set; }
+
+        public System.Data.Entity.DbSet<SkyBankP2p.Models.Transaction> Transactions { get; set; }
+
+        public System.Data.Entity.DbSet<SkyBankP2p.Models.OperationType> OperationTypes { get; set; }
+
+        public System.Data.Entity.DbSet<SkyBankP2p.Models.Wallet> Wallets { get; set; }
     }
 }
